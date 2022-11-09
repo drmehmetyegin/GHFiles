@@ -1,0 +1,149 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "c078fe49",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[5, 4, 3, 2, 1], [9, 8, 7, 6], [13, 12, 11, 10], [17, 16, 15, 14]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "\n",
+    "x=[[1, 2, 3, 4, 5], [6, 7, 8, 9], [10, 11, 12, 13], [14, 15, 16, 17]]  #Reverse each lists in the lists:\n",
+    "\n",
+    "\n",
+    "x=[[1, 2, 3, 4, 5], [6, 7, 8, 9], [10, 11, 12, 13], [14, 15, 16, 17]]  #Reverse each lists in the lists:\n",
+    "print([x[0][::-1],x[1][::-1],x[2][::-1],x[3][::-1]])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9a09a0d4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "50816d6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[17, 16, 15, 14], [13, 12, 11, 10], [9, 8, 7, 6], [5, 4, 3, 2, 1]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "x[0].reverse()\n",
+    "x[1].reverse()\n",
+    "x[2].reverse()\n",
+    "x[3].reverse()\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "feda142b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "X"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "2ac8e488",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'X' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Input \u001b[0;32mIn [7]\u001b[0m, in \u001b[0;36m<cell line: 2>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m x\u001b[38;5;241m=\u001b[39m[[\u001b[38;5;241m1\u001b[39m, \u001b[38;5;241m2\u001b[39m, \u001b[38;5;241m3\u001b[39m, \u001b[38;5;241m4\u001b[39m, \u001b[38;5;241m5\u001b[39m], [\u001b[38;5;241m6\u001b[39m, \u001b[38;5;241m7\u001b[39m, \u001b[38;5;241m8\u001b[39m, \u001b[38;5;241m9\u001b[39m], [\u001b[38;5;241m10\u001b[39m, \u001b[38;5;241m11\u001b[39m, \u001b[38;5;241m12\u001b[39m, \u001b[38;5;241m13\u001b[39m], [\u001b[38;5;241m14\u001b[39m, \u001b[38;5;241m15\u001b[39m, \u001b[38;5;241m16\u001b[39m, \u001b[38;5;241m17\u001b[39m]] \n\u001b[0;32m----> 2\u001b[0m \u001b[43mX\u001b[49m[\u001b[38;5;241m0\u001b[39m],[\u001b[38;5;241m1\u001b[39m],[\u001b[38;5;241m2\u001b[39m],[\u001b[38;5;241m3\u001b[39m]\u001b[38;5;241m.\u001b[39mreverse()\n\u001b[1;32m      3\u001b[0m \u001b[38;5;28mprint\u001b[39m(x)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'X' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "x=[[1, 2, 3, 4, 5], [6, 7, 8, 9], [10, 11, 12, 13], [14, 15, 16, 17]] \n",
+    "X[0].reverse()\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "26fd3de1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('rfVS23m6', 'tHrd87nk', 'uyDF458s', 'mrt76SDz')"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "client_pass=(\"tHrd87nk\", \"uyDF458s\", \"mrt76SDz\")\n",
+    "pass_list=list(client_pass)\n",
+    "pass_list.insert(0, \"rfVS23m6\")\n",
+    "client_pass=tuple(pass_list)\n",
+    "client_pass\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bc1454ee",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dict.mro()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
